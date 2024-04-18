@@ -1,4 +1,9 @@
 <template>
+  <div>
+  <div class="news__decoration-top">
+    <img src="@/assets/img/decoration/3-middle.svg" alt="3-middle">
+  </div>
+
   <div class="news__container">
     <div class="news">
       <div class="news__title">Новости</div>
@@ -31,13 +36,24 @@
     </div>
     </div> 
   </div>
+  <div>
+    <img src="@/assets/img/decoration/4-middle.png" alt="4-middle">
+  </div>
+</div>
   </template>
   
   <style scoped>
+  .news__decoration-top {
+    position: relative;
+    transform: translateY(44px);
+    z-index: -1;
+}
+
 
     .news__container {
       padding-left: 119px;
       padding-right: 44px; 
+      background-color: #686DE0;
     }
 
   
@@ -51,7 +67,7 @@
     }
   
     .news {
-      margin-top: 244px;
+      margin-top: 44px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -72,7 +88,7 @@
   
   .news__content {
     width: 1904px;
-    height: 655px;
+    height: 455px;
     display: flex;
     gap: 114px
   }
@@ -124,8 +140,6 @@
     width: 110px;
     height: 110px;
 }
-
-
 
   </style>
   

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="playbill__wrapper">
     <div class="playbill__text">
       Самый популярный фильм на неделе
     </div>
@@ -33,15 +33,20 @@
 </template>
 
 <style scoped>
+.playbill__wrapper {
+  margin-left: 100px;
+}
+
+
   .playbill__text {
-  margin: 210px 0 0 123px;
+  margin-top: 280px;
   font-weight: bold;
   font-size: 30px;
 }
 
 
 .playbill__text-2 {
-  margin: 210px 0 0 843px;
+  margin: 210px 0 0 903px;
   font-weight: bold;
   font-size: 30px;
 }

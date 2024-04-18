@@ -17,6 +17,9 @@
 
 <style scoped>
 .nav {
+  top: 0; 
+  background-color: #2C2C54;
+  z-index: 1000;
   position: sticky;
   padding: 27px 170px 60px 122px;
   display: flex;

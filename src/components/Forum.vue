@@ -4,6 +4,8 @@
 
 <template>
   <div>
+    <div class="forum__decoration">
+        <img src="@/assets/img/decoration/5-middle.png" alt="3-middle"></div>
     <div class="forum">
        <div class="forum__title"> Форум</div>
        <div class="forum__link"><u>Все треды</u></div>
@@ -21,7 +23,7 @@
                 В данном треде, Вы сможете узнать намного<br> больше про киновселенную от Bubble про<br> великого майора полиции - Игоря Грома
             </div>
             <div class="forum__main-major-content-text-link">
-                <a href="#">Подробнее</a>
+                <a href="#"><span>Подробнее</span></a>
                 <img src="@/assets/img/arrow.svg" alt="arrow">
              </div>
             </div>
@@ -34,7 +36,7 @@
                 <div class="forum__main-marvel-content">Скоро на экраны выходит новый фильм от Sony Marvel,<br> хотелось бы порассуждать, а каким он будет? Если у вас есть<br> какие-либо заметки, милости прошу к нашему шалашу...
                 </div>
                 <div class="forum__main-marvel-content-text-link">
-                    <a href="#">Подробнее <img src="@/assets/img/arrow.svg" alt="arrow"></a> 
+                    <a href="#"><span>Подробнее</span><img src="@/assets/img/arrow.svg" alt="arrow"></a> 
                 </div>
             </div>
         </div>
@@ -48,7 +50,7 @@
                 <div class="forum__main-marvel-content-reverse">Скоро на экраны выходит новый фильм от Sony Marvel,<br> хотелось бы порассуждать, а каким он будет? Если у вас есть<br> какие-либо заметки, милости прошу к нашему шалашу...
                 </div>
                 <div class="forum__main-marvel-content-text-link-reverse">
-                    <a href="#">Подробнее <img src="@/assets/img/arrow.svg" alt="arrow"></a> 
+                    <a href="#"><span>Подробнее</span><img src="@/assets/img/arrow.svg" alt="arrow"></a> 
                 </div>
             </div>
         </div>
@@ -64,7 +66,7 @@
                 В данном треде, Вы сможете узнать намного<br> больше про киновселенную от Bubble про<br> великого майора полиции - Игоря Грома
             </div>
             <div class="forum__main-major-content-text-link-reverse">
-                <a href="#">Подробнее</a>
+                <a href="#"><span>Подробнее</span></a>
                 <img src="@/assets/img/arrow.svg" alt="arrow">
              </div>
             </div>
@@ -75,13 +77,21 @@
 </template>
 
 <style scoped>
-  
+
+  .forum__decoration {
+    position: relative;
+    transform: translateY(115px);
+    z-index: -1;
+}
+
+
+
   .forum {
     display: flex;
     justify-content: space-between;
     padding-left: 118px;
     padding-right: 122px;
-    padding-bottom: 161px;
+    padding-bottom: 81px;
 }
 
 .forum__title {
@@ -92,12 +102,13 @@
 .forum__link {
     font-size: 18px;
     margin-top: 10px;
+    text-decoration: none;
 }
-
 
 .forum__core {
     display: flex;
     gap: 50px;
+    background-color: #686DE0;
 }
 .forum__main-major {
     display: flex;
@@ -114,7 +125,7 @@
     border-radius: 0 15px 15px 0;
     width: 400px;
     height: 260px;
-    background-color: #686DE0;
+    background-color: #2C2C54;
 }
 .forum__main-major-content-text-title {
     font-weight: 700;
@@ -139,7 +150,7 @@
     border-radius: 15px;
     width: 500px;
     height: 260px;
-    background-color: #686DE0;
+    background-color: #2C2C54;
 }
 .forum__main-marvel-title {
     font-weight: 700;
@@ -164,6 +175,7 @@
 .forum__core-reverse {
     display: flex;
     gap: 50px;
+    background-color: #686DE0;
 }
 .forum__main-major-reverse {
     display: flex;
@@ -180,7 +192,7 @@
     border-radius: 0 15px 15px 0;
     width: 400px;
     height: 260px;
-    background-color: #686DE0;
+    background-color: #2C2C54;
 }
 .forum__main-major-content-text-title-reverse {
     font-weight: 700;
@@ -207,7 +219,7 @@
     border-radius: 15px;
     width: 500px;
     height: 260px;
-    background-color: #686DE0;
+    background-color: #2C2C54;
 }
 .forum__main-marvel-title-reverse {
     font-weight: 700;
@@ -225,4 +237,7 @@
     font-size: 15px;
 }
 
+span {
+    color: #686DE0;
+}
 </style>
