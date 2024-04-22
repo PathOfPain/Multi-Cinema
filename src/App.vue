@@ -5,24 +5,26 @@ import Playbill from "./components/Playbill.vue";
 import News from "./components/News.vue";
 import Forum from "./components/Forum.vue";
 import Footer from "./components/Footer.vue";
-import Decoration from "./components/Decoration.vue";
+import Profile from "./Profile.vue";
 </script>
 
 <template>
-<div class="wrapper">
-    <Decoration/>
-    <Nav/>
-    <Header/>
-    <Playbill/>
-    <News/>
-    <Forum/>
-    <Footer/>
-</div>
-</template>
-
-<style scoped>
-.wrapper {
-    
-}
-
-</style>
+<div>
+    <!-- <div id="main">
+      <Nav/>
+      <Header/>
+      <Playbill/>
+      <News/>
+      <Forum/>
+      <Footer/>
+    </div> -->
+    <div id="profile">
+      <Profile/>
+    </div>
+  </div>
+  </template>
+  
+  <style scoped>
+  
+  </style>
+  

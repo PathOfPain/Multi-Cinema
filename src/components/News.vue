@@ -64,6 +64,7 @@
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 3%;
     }
   
     .news {
@@ -79,25 +80,24 @@
     flex: 1; 
     text-align: center; 
     font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
   }
   .news__link {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     margin-right: 44px;
   }
   
   .news__content {
-    width: 1904px;
-    height: 455px;
+    width: 100%; 
+    height: auto; 
     display: flex;
-    gap: 114px
-  }
-  
-  
+    gap: 114px;
+}
+
   .news__content-image {
     position: relative;
-    width: 504px;
-    height: 323px;
+    width: 550px;
+    height: 367px;
   }
   
   .news__gotham-spin-off-text {
@@ -106,33 +106,36 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 5px;
-    font-size: 22px;
+    padding: 15px;
+    font-size: 24px;
   }
   
   .news__horror {
-    height: 723px;
-    width: 1100px;
+    height: 453px;
+    width: 660px;
+    padding-top: 15px;
 }
-
 
 
 .news__content-horror {
   display: flex;
   margin-bottom: 20px;
   gap: 15px;
+  font-size: 18px;
 }
 
 .news__content-horror-1 {
   display: flex;
   margin-bottom: 20px;
   gap: 15px;
+  font-size: 18px;
 }
 
 .news__content-horror-2 {
   display: flex;
   margin-bottom: 20px;
   gap: 15px;
+  font-size: 18px;
 }
 
 

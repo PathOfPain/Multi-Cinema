@@ -1,8 +1,3 @@
-<script setup>
-
-</script>
-
-
 <template>
   <div class="decoration">
     <ul class="decoration__list">
@@ -14,8 +9,10 @@
   </div>
 </template>
 
-
 <style scoped>
+.decoration {
+  position: relative;
+}
 
 .decoration__list {
   display: flex;
@@ -25,26 +22,17 @@
 .decoration__item-1 {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 96px;
     z-index: -1;
-    transform: translate(810px, 600px);
+    transform: translate(100%, 99%); 
+
 }
 
 .decoration__item-2 {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 80%;
-    height: 80%;
     z-index: -1;
-    transform: translate(10px, 400px);
+    transform: translate(0%, 150%);
 }
-
-
-.decoration__item-4 {
-}
-.decoration__item-5 {
-}
-
 </style>

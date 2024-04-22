@@ -7,7 +7,7 @@
     <div class="forum__decoration">
         <img src="@/assets/img/decoration/5-middle.png" alt="3-middle"></div>
     <div class="forum">
-       <div class="forum__title"> Форум</div>
+       <div class="forum__title"> <h1>Форум</h1></div>
        <div class="forum__link"><u>Все треды</u></div>
     </div>
     <div class="forum__core">
@@ -17,7 +17,7 @@
         </div>
         <div class="forum__main-major-content-text">
             <div class="forum__main-major-content-text-title">
-                КиноВселенная “Майора Грома”
+                <h1>КиноВселенная “Майора Грома”</h1>
             </div>
             <div class="forum__main-major-content-text-content">
                 В данном треде, Вы сможете узнать намного<br> больше про киновселенную от Bubble про<br> великого майора полиции - Игоря Грома
@@ -45,7 +45,7 @@
         <div class="forum__main-marvel-reverse">
             <div class="forum__main-marvel-text-reverse">
                 <div class="forum__main-marvel-title-reverse">
-                    Каким будет новый фильм от марвел?
+                    <h1>Каким будет новый фильм от марвел?</h1>
                 </div>
                 <div class="forum__main-marvel-content-reverse">Скоро на экраны выходит новый фильм от Sony Marvel,<br> хотелось бы порассуждать, а каким он будет? Если у вас есть<br> какие-либо заметки, милости прошу к нашему шалашу...
                 </div>
@@ -60,7 +60,7 @@
         </div>
         <div class="forum__main-major-content-text-reverse">
             <div class="forum__main-major-content-text-title-reverse">
-                КиноВселенная “Майора Грома”
+                <h1>КиноВселенная “Майора Грома”</h1>
             </div>
             <div class="forum__main-major-content-text-content-reverse">
                 В данном треде, Вы сможете узнать намного<br> больше про киновселенную от Bubble про<br> великого майора полиции - Игоря Грома
