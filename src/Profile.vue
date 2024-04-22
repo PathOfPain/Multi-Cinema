@@ -2,8 +2,10 @@
 import NavProfile from "./componentsProfile/NavProfile.vue";
 import UserInformation from "./componentsProfile/UserInformation.vue";
 import FavoritesFilms from "./componentsProfile/FavoritesFilms.vue";
+import WatchLater from "./componentsProfile/WatchLater.vue";
 import Footer from "./components/Footer.vue";
 import FooterProfile from "./componentsProfile/FooterProfile.vue";
+
 </script>
 
 <template>
@@ -12,6 +14,7 @@ import FooterProfile from "./componentsProfile/FooterProfile.vue";
   <div class="wrapper">
     <UserInformation/>
     <FavoritesFilms/>
+    <WatchLater/>
   </div>
   <!-- <Footer/> -->
     <!-- <FooterProfile/> -->

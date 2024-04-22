@@ -5,7 +5,7 @@
 <template>
   <div class="FavoritesFilms">
     <div class="FavoritesFilms__title">
-      <h1>Любимые фильмы пользователя</h1>
+      <h1>Список “Просмотреть позже”</h1>
       <a href="#">Полный список</a>
     </div>
     <div class="FavoritesFilms__grid-container">
@@ -20,7 +20,7 @@
         </div>
   </div>
   <div class="FavoritesFilms__grid-item">
-    <img src="@/assets/img/Profile/people.svg" alt="Image 2">
+    <img src="@/assets/img/Profile/car.svg" alt="Image 2">
     <div class="FavoritesFilms__grid-text">
     <a href="#"><h2>Сверхъественное</h2></a>
         <h3>Supernatural, 43 мин</h3>
@@ -50,7 +50,7 @@
         </div>
   </div>
   <div class="FavoritesFilms__grid-item">
-    <img src="@/assets/img/Profile/people.svg" alt="Image 5">
+    <img src="@/assets/img/Profile/car.svg" alt="Image 5">
     <div class="FavoritesFilms__grid-text">
     <a href="#"><h2>Сверхъественное</h2></a>
         <h3>Supernatural, 43 мин</h3>
