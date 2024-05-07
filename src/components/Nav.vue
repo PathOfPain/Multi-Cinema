@@ -1,3 +1,13 @@
+<script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const goToHome = () => {
+  router.push('/');
+}
+</script>
+
 <template>
   <div class="nav">
     <div class="nav__logo">
@@ -8,7 +18,7 @@
       <li class="nav__item"><a href="#">Треды</a></li>
       <li class="nav__item"><a href="#">Новости</a></li>
     </ul>
-    <div class="nav__search">
+    <div class="nav__search" @click="goToHome">
       <input type="text" placeholder="Поиск...">
       <img src="@/assets/img/profile.svg" alt="profile">
     </div>
@@ -53,6 +63,7 @@
   margin-top: 15px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav__search input[type="text"] {
